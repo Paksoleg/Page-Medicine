@@ -134,7 +134,7 @@ a{
     height: 50px;
     background: url(https://i.artfile.ru/3840x2160_1134334_[www.ArtFile.ru].jpg);
     cursor: pointer;
-    border-radius: 50%;
+    border-radius: 80%;
     text-align: center;
 
     box-shadow: 0 3px 20px rgba(0,0,0,.25),
