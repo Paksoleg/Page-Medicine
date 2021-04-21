@@ -3,8 +3,23 @@ body{
   background-image: url(https://images.unsplash.com/photo-1618733166688-37cdd7ec4959?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
   background-size: cover;
   background-position: center;
+  
 }
 
 h1{
-    color:rgb(151, 91, 0);
+    color:rgb(97, 209, 212);
+    font-style: italic;
+    font-size: 220%;
+}
+
+h2{
+    color:rgb(97, 209, 212);
+    size: 90;
+    font-style: italic;
+    font-size: 220%;
+
+}
+img{
+    width: 200px;
+    height: 200px;
 }
