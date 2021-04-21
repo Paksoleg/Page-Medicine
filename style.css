@@ -8,25 +8,137 @@ body{
 
 h1{
     color:rgb(0, 0, 0);
-    font-style: italic;
+    font-style: Impact;
     font-size: 220%;
 }
 
 h2{
     color:rgb(0, 0, 0);
     size: 90;
-    font-style: italic;
+    font-style: Impact;
     font-size: 220%;
 
 }
-img{
-    width: 400px;
-    height: 400px;
-}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+
+    .slperekhodnik{
+    max-width: 38em;
+    margin: 0 auto;
+    width: 100%;
+    }
+    
+    .gablok_sedakoda{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    }
+    
+    .slayder_karusel{
+    position: relative;
+    width: 500%;
+    font-size: 0;
+    animation: 8s gablok_sedakoda-ani infinite;
+    }
+    
+    .slayder_karusel figure{
+    width: 20%;
+    height: auto;
+    display: inline-block;
+    position: inherit;
+    }
+    
+    .slayder_karusel img{
+    max-width: 100%;
+    vertical-align: bottom;
+    }
+    
+    .slayder_karusel img:hover{
+    filter: grayscale(90%);
+    }
+    
+    .slayder_karusel figure figcaption{
+    position: absolute;
+    font-family: 'Roboto';
+    font-size: 1.4rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    bottom: 0;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    width: 100%;
+    padding: .5em;
+    }
+    
+    @keyframes gablok_sedakoda-ani{
+    0%{
+    left: 0%;
+    }
+    
+    10%{
+    left: 0%;
+    }
+    
+    20%{
+    left: -100%;
+    }
+    
+    30%{
+    left: -100%;
+    }
+    
+    40%{
+    left: -200%;
+    }
+    
+    50%{
+    left: -200%;
+    }
+    
+    60%{
+    left: -300%;
+    }
+    
+    70%{
+    left: -300%;
+    }
+    
+    80%{
+    left: -400%;
+    }
+    
+    }
+
 section{
     text-align: center;
 
 }
 b{
     font-size: 250%;
+}
+a{
+    font-size: 125%;
+    color:azure;
+    text-decoration: none;
+}
+.button{
+    display:inline-block;
+    margin: 30px;
+    width: 50px;
+    height: 50px;
+    background: url(https://i.artfile.ru/3840x2160_1134334_[www.ArtFile.ru].jpg);
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+
+    box-shadow: 0 3px 20px rgba(0,0,0,.25),
+    inset 0 2px 0 rgba(255,255,255,.6),
+    0 2px 0 rgba(0,0,0,.1),
+    inset 0 0 20px rgba(0,0,0,.1);
 }
